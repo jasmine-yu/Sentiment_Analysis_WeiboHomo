@@ -49,4 +49,4 @@ def tfidf_text():
     return x_train_weight,x_test_weight,vectorizer.get_feature_names(),loaded_vec.get_feature_names()
 
 if __name__ == "__main__":
-    x_train_weight,x_test_weight,name_train, name_test = tfidf_text()#输出训练集和测试集top50文本特征向量，以及top 50的特征名
+    x_train_weight,x_test_weight,name_train, name_test = tfidf_text()#输出训练集和测试集top50文本特征向量，以及top 50的特征名，权重向量以归一化
